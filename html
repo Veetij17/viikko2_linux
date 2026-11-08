@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Python Web App - Week 2</title>
+    <style>
+        body {
+            background: #fff6cc;
+            color: #14213d;
+            font-family: Arial, sans-serif;
+            max-width: 750px;
+            margin: 50px auto;
+            padding: 30px;
+            text-align: center;
+        }
+        h1 { color: #e6498b; }
+        .counter {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            font-size: 28px;
+            border: 3px solid #ff6fb1;
+        }
+        .counter strong { color: #e6498b; }
+    </style>
+</head>
+<body>
+    <h1>My Python Web App</h1>
+    <p>Welcome to my Week 2 project!</p>
+
+    <div class="counter">
+        <h2>Total page visits</h2>
+        <strong>{{ visits }}</strong>
+    </div>
+
+    <h2>How does it work?</h2>
+    <p>This website uses Python Flask and MariaDB.</p>
+    <p>Each page load increases the counter by one.
+       The count is stored in a MariaDB database.</p>
+
+    <p>GitHub repository link will be added here.</p>
+    <p>Server restart test results will be added here.</p>
+</body>
+</html>
