@@ -1,0 +1,9 @@
+[Unit]
+Description=Week 3 Server Status Report
+
+[Service]
+Type=oneshot
+User=ubuntu
+WorkingDirectory=/home/ubuntu/viikko3
+ExecStart=/home/ubuntu/viikko3/report.sh
+

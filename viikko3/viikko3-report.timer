@@ -1,0 +1,11 @@
+[Unit]
+Description=Update server status report every minute
+
+[Timer]
+OnCalendar=*-*-* *:*:00
+Persistent=true
+Unit=viikko3-report.service
+
+[Install]
+WantedBy=timers.target
+
